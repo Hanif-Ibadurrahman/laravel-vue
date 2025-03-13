@@ -84,3 +84,16 @@ docker-compose exec app php artisan migrate
 - POST /api/logout - Logout (requires authentication)
 - POST /api/refresh - Refresh token (requires authentication)
 - POST /api/me - Get authenticated user details (requires authentication)
+
+## Frontend
+The frontend is a standalone Vue.js application running on http://localhost:5173
+
+## Pages
+Register
+- URL: /register
+
+Login
+- URL: /login
+
+Dashboard
+- URL: /dashboard
